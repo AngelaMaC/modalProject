@@ -56,15 +56,14 @@ export const Modal = ({ showModal, setShowModal }) => {
         }
     }
 
-
     return (
         <>
             {showModal ? (
                 <Background ref={modalRef} onClick={closeModal}>
                     <ModalWrapper showModal={showModal}>
                         <ModalContent>
-                            <h1>Hello From a Modal</h1>
-                            <p>Here you go!</p>
+                            <h1>It's Modal Time!</h1>
+                            <p>Hello from a React Modal</p>
                         </ModalContent>
                         <CloseModalButton aria-label='Close modal' onClick={() => setShowModal(prev => !prev)} />
                     </ModalWrapper>
