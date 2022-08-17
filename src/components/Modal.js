@@ -70,10 +70,6 @@ export const Modal = ({ showModal, setShowModal }) => {
                 </Background>
             ) : null}
         </ >
-
-
-
-
     )
 }
 
