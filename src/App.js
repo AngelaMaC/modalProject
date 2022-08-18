@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Modal } from './components/Modal'
+import { Modal } from './components/Modal';
 import styled from 'styled-components';
 import { GlobalStyle } from './globalStyles';
 
@@ -23,7 +23,6 @@ const Button = styled.button`
   font-size: 25px;
   font-family: inherit;
 `
-
 function App() {
   const [showModal, setShowModal] = useState(false)
 
